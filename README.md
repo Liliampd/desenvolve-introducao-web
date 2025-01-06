@@ -1,4 +1,4 @@
 # desenvolve-introducao-web
-Projeto Desenvolve - Itabira
-Disciplina: Introdução à Programação Web
-Matrícula: PDITA635
+ Projeto Desenvolve - Itabira
+- Disciplina: Introdução à Programação Web
+- Matrícula: PDITA635
