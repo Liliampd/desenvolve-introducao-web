@@ -1,11 +1,9 @@
-<!--Exercícios - Elementos textuais
-Prática: Notícia Do Dia
-Implemente a página HTML noticia.html que contenha uma notícia do dia.
-Essa página deverá conter:
-a. Título principal
-b. Subtítulo descrevendo, a notícia em mais detalhes
-c. Pelo menos quatro parágrafos contendo o texto da notícia
-d. A aplicação de pelo menos 6 elementos de formatação
+<!-- Prática. Estenda a página noticias.html implementada no exercício "elementos textuais", incluindo os seguintes containers:
+a. Um <header> que irá mostrar o título e um logo do portal de notícias;
+b. Um <footer> que irá incluir uma lista de links para redes sociais;
+c. Um <main> que irá englobar todo conteúdo principal da página. Isto é,
+as notícias propriamente ditas;
+d. Cada notícia deverá ser declarada dentro de um <article> 
 Envie nessa atividade o arquivo noticia.html-->
 
 <!DOCTYPE html>
@@ -14,24 +12,60 @@ Envie nessa atividade o arquivo noticia.html-->
         <title>Meu Portal de Notícias</title> 
         </head>
     <body>
-        <h1>Os gráficos mostram:</h1>
-        <h2>Como Terra atingiu 'linha vermelha' de aquecimento em 2024.</h2>
-        <p>
-            O planeta deu um grande passo em direção ao aquecimento acima de 1,5 °C, segundo revelam novos dados, apesar de os líderes mundiais terem prometido há uma década que tentariam evitar isso. O serviço climático europeu <em>Copernicus</em>, um dos principais fornecedores de dados globais, afirmou nesta sexta-feira (10/1) que 2024 foi o primeiro ano a ultrapassar o limite simbólico, além de ter sido o mais quente já registrado. 
-        </p>
-
-        <p>
-            <em>Na semana passada</em>, o secretário-geral da Organização das Nações Unidas (ONU), António Guterres, descreveu a recente série de recordes de temperatura como <strong>"colapso climático"</strong>. As temperaturas médias globais de 2024 ficaram cerca de 1,6 °C acima das do período pré-industrial — antes de os seres humanos começarem a queimar grandes quantidades de combustíveis fósseis —, de acordo com os dados do Copernicus. 
-        </p>
-        <p>
-            O <strong>Met Office</strong>, centro nacional de meteorologia britânico, <strong>a Nasa</strong>, agência espacial americana, e outros grupos climáticos devem divulgar seus próprios dados ainda nesta sexta-feira. A expectativa é de que todos concordem que 2024 foi o ano mais quente já registrado, embora os números precisos possam variar um pouco. 
-
-        </p>
-        <p>
-            O calor do ano passado se deve principalmente às emissões de gases que aquecem o planeta, como o dióxido de carbono, que ainda estão em níveis recordes. Os padrões climáticos naturais, como o <em>El Niño</em>, em que as águas na superfície do Oceano Pacífico tropical oriental ficam excepcionalmente quentes, tiveram um papel menor. 
-        </p>
-        <p>
-           <em>Fonte: BBC Brasil.</em>
-        </p>
+        <header>
+            <img src="https://picsum.photos/50"/>
+            <h1>Meu Portal de Notícias</h1>
+        </header>
+        <main>
+            <article>
+                <h2>Os gráficos mostram:</h2>
+                <h3>Como a Terra atingiu 'linha vermelha' de aquecimento em 2024.</h3>
+                <p>
+                    O planeta deu um grande passo em direção ao aquecimento acima de 1,5 °C, segundo revelam novos dados, apesar de os líderes mundiais terem prometido há uma década que tentariam evitar isso. O serviço climático europeu <em>Copernicus</em>, um dos principais fornecedores de dados globais, afirmou nesta sexta-feira (10/1) que 2024 foi o primeiro ano a ultrapassar o limite simbólico, além de ter sido o mais quente já registrado. 
+                </p>
+        
+                <p>
+                    <em>Na semana passada</em>, o secretário-geral da Organização das Nações Unidas (ONU), António Guterres, descreveu a recente série de recordes de temperatura como <strong>"colapso climático"</strong>. As temperaturas médias globais de 2024 ficaram cerca de 1,6 °C acima das do período pré-industrial — antes de os seres humanos começarem a queimar grandes quantidades de combustíveis fósseis —, de acordo com os dados do Copernicus. 
+                </p>
+                <p>
+                    O <strong>Met Office</strong>, centro nacional de meteorologia britânico, <strong>a Nasa</strong>, agência espacial americana, e outros grupos climáticos devem divulgar seus próprios dados ainda nesta sexta-feira. A expectativa é de que todos concordem que 2024 foi o ano mais quente já registrado, embora os números precisos possam variar um pouco. 
+        
+                </p>
+                <p>
+                    O calor do ano passado se deve principalmente às emissões de gases que aquecem o planeta, como o dióxido de carbono, que ainda estão em níveis recordes. Os padrões climáticos naturais, como o <em>El Niño</em>, em que as águas na superfície do Oceano Pacífico tropical oriental ficam excepcionalmente quentes, tiveram um papel menor. 
+                </p>
+                <p>
+                   <em>Fonte: BBC Brasil.</em>
+                </p>
+            </article>
+            <article>
+                <h2>A 'tempestade perfeita'</h2>
+                <h3>Que faz de incêndios de Los Angeles os 'mais destrutivos' da história da cidade.</h3>
+                <p>
+                    Uma série de incêndios estão ocorrendo simultaneamente na cidade de Los Angeles, na costa oeste dos Estados Unidos. <em>Segundo autoridades locais</em>, os incêndios causaram a morte de 16 pessoas e dezenas de feridos, além da destruição de mais de 2 mil casas e edifícios.  
+                </p>
+        
+                <p>
+                    Na manhã deste domingo o chefe do Corpo de Bombeiros do Condado de Los Angeles, Anthony C. Marrone, disse que "<em>as condições climáticas críticas e elevadas do incêndio continuarão até quarta-feira</em>" e que os ventos <strong>fortes</strong>, combinados com a <strong>baixa umidade</strong>, manterão a ameaça de incêndio no condado de Los Angeles "muito alta".
+                </p>
+                <p>
+                    As autoridades dizem que pode levar <em>várias semanas para identificar as vítimas</em>, já que os métodos tradicionais, como impressões digitais e identificação visual, podem não ser suficientes devido às condições dos corpos.
+                </p>
+                <p>
+                    Os afetados pelos incêndios violentos incluem desde <strong>famosos de Hollywood</strong> , como Billy Crystal e James Wood, e <strong>personalidades</strong> como Paris Hilton, até moradores da área costeira e dos bairros mais a oeste da cidade.  
+                </p>
+                <p>
+                   <em>Fonte: BBC Brasil.</em>
+                </p>
+            </article>
+        </main>
+       
+        <footer>
+            <ul>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="https://www.instagram.com/">Instagran</a></li>
+                <li><a href="https://www.x.com"> X </a></li>
+            </ul>
+        </footer>
     </body>
 </html>
