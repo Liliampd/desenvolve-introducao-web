@@ -1,0 +1,25 @@
+/* Analise o código CSS abaixo e calcule em pixels o tamanho da fonte dos elementos:
+h1 
+.principal 
+.secundário
+*/
+html { font-size: 20px; }
+html h1 { font-size: 2rem; }/*Resultafdo de 2 vezes o tamanho da fonte raiz, que é 20 , então o tamanho da fonte resultante é de 40px = 2*20= 40px*/
+h1 > .principal { font-size: 1.4em; }/* A princípio não podemos definir o tamanho de fonte, pois isso dependerá da hierarquia declarado dentro do html na página, mas o seletor declarado utiliza  a hierarquia e descendencia direta, portanto, neste caso quer se customizar o font size de todo elemento que é classe principal e que é filho direto de h1 portanto os valores necessários para se calcular são: 1.4 * 40 = 56px*/
+html .secundario { font-size: 1.4rem; }/*O tamanho a ser aplicado nos elementos .seundário seria 1.4 *20= ou seja 28px */
+
+/*
+
+2. Dada a cor definida no formato RGBrgb(219, 78, 68) , calcule duas possíveis variações, uma 15% mais clara, outra 15% mais escura. Coloque as cores lado-a-lado e compare os resultados.
+*/
+
+.cor {
+    background: rgb(219, 78, 68);
+}
+.cor-clara{
+background:rgb(252,90, 78);
+}
+.cor-escura {
+    background: rgb(186, 66, 58);
+    
+}
