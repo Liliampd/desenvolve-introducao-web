@@ -10,8 +10,7 @@ deixado pelo elemento .explanation .
 - Faça-o iniciar na parte superior da página, após a parte de introdução (por exemplo,
 aplicando top: 560px ).
 - Faça-o iniciar após o elemento .explanation (por exemplo, aplicando left: 62% ).
-- Adicione um espaçamento interno horizontal de 2% no menu para centralizá-lo.
-Envie nessa atividade com o link do projeto no GitHub.*/
+- Adicione um espaçamento interno horizontal de 2% no menu para centralizá-lo.*/
 
 .page-wrapper {
     position: relative;
@@ -21,15 +20,6 @@ Envie nessa atividade com o link do projeto no GitHub.*/
     width: 60%;
     border-right: #1f295c solid 1px;
     padding-right: 2%;
-
-}
-
-#design-selection {
-    position: absolute;
-    top: 560px;
-    left: 62%;
-    padding-left: 1%;
-    padding-right: 1%;
 }
 
 .main footer {
