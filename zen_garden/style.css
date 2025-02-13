@@ -196,6 +196,20 @@ abbr{font-variant: small-caps;}
 @media print {
     html {
         font-family: 'Times New Roman', Times, serif;
-        
+    }
+    
+    #zen-intro header {
+        background-color: #fbfcfd;
+        color: #1f295c;
+    }
+
+    .design-selection {
+        position: static;
+        width: 100%;
+    }
+
+    .explanation {
+        border-right: none;
+        width: 100%;
     }
 }
